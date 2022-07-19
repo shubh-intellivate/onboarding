@@ -1,0 +1,7 @@
+1.locations add(like delhi, mumbai, pune)
+
+2.Visibilty control (request model hide) from agent workspace
+3.Due date , Price quantity , Recurring pricehide all these fields from agent workspace
+
+4.In Requested item add approve button
+Myapprovals list add in the agent workspace
