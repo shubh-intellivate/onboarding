@@ -1,6 +1,3 @@
-.home{
-    border: #000;
-}
 html {
     -moz-tab-size: 4;
     -o-tab-size: 4;
@@ -16795,5 +16792,8 @@ html body {
     .xxl\:text-theme-10 {
         --tw-text-opacity: 1;
         color: rgba(19, 177, 118, var(--tw-text-opacity))
+    }
+    .checkbox-mag{
+        transform: scale(1.2);
     }
 }

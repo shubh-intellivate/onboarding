@@ -1,39 +1,4 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<!DOCTYPE html>
-<!--
-Template Name: Icewall - HTML Admin Dashboard Template
-Author: Left4code
-Website: http://www.left4code.com/
-Contact: muhammadrizki@left4code.com
-Purchase: https://themeforest.net/user/left4code/portfolio
-Renew Support: https://themeforest.net/user/left4code/portfolio
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
-<html lang="en" class="light">
-    <!-- BEGIN: Head -->
-    <head>
-        <meta charset="utf-8">
-        <link href="../assets/images/logo.svg" rel="shortcut icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Icewall admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
-        <meta name="keywords" content="admin template, Icewall Admin Template, dashboard template, flat admin template, responsive admin template, web app">
-        <meta name="author" content="LEFT4CODE">
-        <title>NEC - Orchestrating a brighter world
-</title>
-        <!-- BEGIN: CSS Assets-->
-        <!-- <link rel="stylesheet" href="dist/css/app.css" /> -->
-        <!-- END: CSS Assets-->
-    </head>
-    <!-- END: Head -->
-    <body class="main">
         <!-- BEGIN: Mobile Menu -->
         <div class="mobile-menu md:hidden">
             <div class="mobile-menu-bar">
@@ -552,7 +517,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 </a>
                 <!-- END: Logo -->
                 <!-- BEGIN: Breadcrumb -->
-                <div class="-intro-x breadcrumb mr-auto"> <a href="">Application</a> <i data-feather="chevron-right" class="breadcrumb__icon"></i> <a href="" class="breadcrumb--active">Dashboard</a> <div style="padding-left: 50px;"><button type="button" class="btn btn-secondary py-1 px-2">Free Expert Advice</button></div></div> 
+                <div class="-intro-x breadcrumb mr-auto"> </div> 
                 <!-- END: Breadcrumb -->
 
                 <!-- BEGIN: Search -->
@@ -644,7 +609,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 </div>
                 <!-- END: Search -->
                 <!-- BEGIN: Notifications -->
-                <div class="intro-x dropdown mr-4 sm:mr-6">
+                <!-- <div class="intro-x dropdown mr-4 sm:mr-6">
                     <div class="dropdown-toggle notification notification--bullet cursor-pointer" role="button" aria-expanded="false"> <i data-feather="bell" class="notification__icon dark:text-gray-300"></i> </div>
                     <div class="notification-content pt-2 dropdown-menu">
                         <div class="notification-content__box dropdown-menu__content box dark:bg-dark-6">
@@ -717,12 +682,13 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- END: Notifications -->
                 <!-- BEGIN: Account Menu -->
-                <div class="intro-x dropdown w-8 h-8">
-                    <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in scale-110" role="button" aria-expanded="false">
-                        <img alt="Icewall Tailwind HTML Admin Template" src="../assets/images/profile-8.jpg">
+                <!-- <div class="intro-x dropdown w-8 h-8"> -->
+                <div class="intro-x dropdown">
+                    <span style="color: white;"><a href="#" routerLink="/logout">{{username}}</a></span>
+                    <!-- <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in scale-110" role="button" aria-expanded="false">
                     </div>
                     <div class="dropdown-menu w-56">
                         <div class="dropdown-menu__content box bg-theme-11 dark:bg-dark-6 text-white">
@@ -740,7 +706,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"> <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- END: Account Menu -->
             </div>
@@ -1255,21 +1221,3 @@ License: You must have a valid license purchased only from themeforest(the above
         </nav>
         <!-- END: Top Menu -->
         <!-- BEGIN: Content -->
-        <router-outlet></router-outlet>
-        
-        <!-- END: Content -->
-        <!-- BEGIN: Dark Mode Switcher-->
-        <!-- <div data-url="top-menu-dark-dashboard-overview-1.html" class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 right-0 box dark:bg-dark-2 border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-10">
-            <div class="mr-4 text-gray-700 dark:text-gray-300">Dark Mode</div>
-            <div class="dark-mode-switcher__toggle border"></div>
-        </div> -->
-        <!-- END: Dark Mode Switcher-->
-        <!-- BEGIN: JS Assets-->
-        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=["your-google-map-api"]&libraries=places"></script> -->
-        <script src="dist/js/app.js"></script>
-        <!-- END: JS Assets-->
-    </body>
-</html>
-
-
